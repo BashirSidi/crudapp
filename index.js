@@ -11,7 +11,7 @@ app.get('*', (req, res) => {
 });
 
 const PORT = 3005;
-app.listen(PORT, (req, res) => {
+app.listen(PORT || 3005, (req, res) => {
 	console.log(`CRUD App is Running on port ${PORT}`);
 });
 

@@ -4,10 +4,14 @@ const userRoutes = require('./routes/users');
 
 app.use(express.json());
 
+app.get('/', (req, res) => {
+	res.json({message: 'Home page'});
+});
+
 app.use('/users', userRoutes);
 
 app.get('*', (req, res) => {
-	res.json({message: 'Oops... something went wrong!'});
+	res.json({message: 'Oops... page not found!'});
 });
 
 const PORT = 3005;

@@ -12,7 +12,7 @@
     "url": "git+https://github.com/BashirSidi/crudapp.git"
   },
   "author": "Bashir Sidi",
-  "license": "ISC",
+  "license": "ISC", 
   "bugs": {
     "url": "https://github.com/BashirSidi/crudapp/issues"
   },
